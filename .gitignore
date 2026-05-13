@@ -1,0 +1,29 @@
+# Claude Code
+.claude/
+
+# Flutter/Dart
+.dart_tool/
+build/
+.pub-cache/
+.pub/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android secrets
+**/android/local.properties
+**/android/key.properties
+*.jks
+
+# iOS
+**/ios/Pods/
+**/ios/**/DerivedData/
