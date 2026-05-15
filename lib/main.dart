@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_expense_tracker_app/widgets/expenses.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Scaffold(
-      body: Center(
-        child: Text('Expense Tracker'),
-      ),
-    ),
-  ));
+  runApp(const MaterialApp(home: Expenses()));
 }
