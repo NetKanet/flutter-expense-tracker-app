@@ -9,6 +9,7 @@ A personal expense tracker app built with Flutter & Dart, following [Academind's
 - Visual bar chart grouped by category
 - Dark mode support (system-based)
 - Responsive layout — landscape: chart beside list, modal adapts
+- Adaptive dialog — iOS uses CupertinoAlertDialog, Android uses AlertDialog
 
 ## What I Learned
 
@@ -32,6 +33,7 @@ A personal expense tracker app built with Flutter & Dart, following [Academind's
 - **SingleChildScrollView** — scrollable modal when keyboard opens
 - **SafeArea / useSafeArea** — avoid notch and system UI overlap
 - **Collection if/else** — conditional widgets in list without curly braces
+- **Adaptive UI** — Platform.isIOS + CupertinoAlertDialog for iOS-native dialogs
 
 ## Project Structure
 
